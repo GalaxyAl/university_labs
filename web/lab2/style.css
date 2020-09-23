@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif; // что делает font-family?
+    font-size: 14px;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color:#40DABA;
+}
+
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* Header
+===================*/
+
+.header {
+    width: 100%;
+    height: 100px;
+    position: absolute; // что будет, если поменять значение на fixed?
+    top: 0;
+    left: 0;
+    z-index: 1000; // какие функции выполняет?
+}
+
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+
+    border-bottom: 1px solid #515369; // за что отвечает данная строка?
+}
+
+
+/* Nav
+===================*/
+
+.nav {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    margin-left: 50px;
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;  // что делаает данный параметр?
+    transition: opacity .1s linear; // что будет, если заменить значение на .10s?
+}
+
+
+
+
+/* Intro
+===================*/
+.intro {
+    height: 750px;
+    padding-top: 20%;
+    background: #31344e url("img/_intro-bg.jpg") center no-repeat;
+    background-size: cover; // что означает параметр cover?
+
+}
+
+.container2 {
+    width: 1150px;
+    height: 300px;
+    margin: 0 auto;
+    /* align-self: center; */
+    background: white;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#column-1,
+#column-2,
+#column-3 {
+    width: 25%;
+    background: white;
+    float:  left;
+    background-image: linear-gradient(to bottom right, white, gray);
+    min-height: 100%;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: black;
+}
+
+#text_arr {
+  width: 80%;
+  height: 50%;
+  margin-top: 20%;
+  resize: none;
+  margin-left: 9%;
+}
+
+#text_labels {
+  margin-top: 8%;
+  margin-left: 35%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#button1 {
+  margin-top: 45%;
+  margin-left: 28%;
+  padding: 10px 30px;
+}
+
+#button2 {
+  margin-top: 35%;
+  margin-left: 30%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#radio_buttons {
+  margin-top: 8%;
+  margin-left: 25%;
+}
+
+#checkboxes {
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+#column-1 {
+  margin-left: 5%;
+}
+
+#column-2 {
+  margin-left: 7%;
+}
+
+#column-3 {
+  margin-left: 7%;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.intro__title {
+    margin: 10px 35px 25px 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    line-height: 1.1;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.intro__subtitle {
+    margin-bottom: 60px;
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+
+/* Button
+===================*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none; // какие функции выполняет  text-decoration?
+    transition: background .1s linear;
+}
+
+.btn--red {
+    background-color: #e84545;
+}
+
+.btn--red:hover { // зачем используется :hover
+    background-color: #dd3434;
+}
