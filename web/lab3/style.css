@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+
+}
+
+.block1 {
+  width: 90%;
+  height: 300px;
+  background: linear-gradient(to top, #234347, #123456);
+    border: 3px solid red;
+}
+
+.block2 {
+  width: 90%;
+  height: 450px;
+  background: url('img/intro-bg.jpg');
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 4px 3px 8px 1px;
+  border-color: yellow green black red;
+  background-attachment: fixed;
+}
+
+.block3 {
+  width: 90%;
+  height: 400px;
+  background-repeat: no-repeat, repeat-x;
+  background-image: url('img/_intro-bg.jpg'), url('img/background_image.jpg');
+  background-size: 100% 200px, 100px 200px;
+  background-position: top, bottom;
+}

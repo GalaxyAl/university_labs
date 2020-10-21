@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.one, .two {
+  position: absolute;
+  width: 340px;
+  height: 333px;
+}
+
+.first_text {
+  position: relative;
+  bottom: 70px;
+  color: #000000;
+}
+
+.second_text {
+  padding-left: 5px;
+  padding-top: 28px;
+  color: #000000;
+}
+
+.one {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 30px;
+  color: #black;
+  line-height: 36px;
+  font-weight: bold;
+
+  left: 179px;
+  top: 120px;
+
+  border-color: #8DE97E rgba(221, 133, 0, 0.19) black red;
+  border-style: solid;
+  background: rgba(255, 107, 0, 0.13);
+  border-width: 4px 12px 30px 8px;
+}
+
+.two {
+  left: 680px;
+  top: 140px;
+
+
+  background-image: url("img/1.png"), url("img/2.png");
+  background-position: center 171px, top;
+  background-repeat: no-repeat, repeat-x;
+  background-clip: content-box;
+
+
+  border-style: solid;
+  border-width: 4px 12px 10px 12px;
+  border-color: #46BCFF rgba(82, 89, 84, 0.19) #FD3030 #C71D83;
+
+  font-family: 'Peralta', sans-serif;
+  font-size: 16px;
+  color: #black;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+}
