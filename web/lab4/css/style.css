@@ -1,0 +1,344 @@
+@font-face {
+ font-family: "Golos";
+ src: url("../fonts/golos_text_regular.woff2") format("woff2"),
+        url("../fonts/golos_text_regular.woff") format("woff");
+}
+
+* {
+  margin: 0px !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.v2_2 {
+  width: 100%;
+  height: 2014px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+}
+
+.honey1 {
+  width: 157px;
+  height: 245px;
+  background: url("../images/honey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 30%;
+  position: absolute;
+  top: 1px;
+  right: -30px;
+  overflow: hidden;
+  transform: rotate(360deg);
+}
+
+.honey2 {
+    width: 371px;
+  height: 157px;
+  background: url("../images/honey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 30%;
+  position: absolute;
+    top: 1754px;
+  left: 1283px;
+  overflow-x: hidden;
+  position: absolute;
+
+  transform: rotate(-90deg);
+}
+
+.honey3 {
+  width: 291px;
+  height: 123px;
+  background: url("../images/honey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 30%;
+  position: absolute;
+  left: -80px;
+  top: 1210px;
+  overflow-x: hidden;
+
+  transform: rotate(-180deg);
+}
+
+.honey4 {
+  width: 291px;
+  height: 123px;
+  background: url("../images/honey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 100%;
+  position: absolute;
+  left: -170px;
+  top: 695px;
+  overflow-x: hidden;
+  transform: rotate(-180deg);
+}
+
+.green_back {
+  width: 1000px;
+  height: 516px;
+  background: rgba(81,201,20,1);
+  opacity: 1;
+  position: absolute;
+  top: 691px;
+  left: 640px;
+  overflow: hidden;
+}
+.black_back {
+  width: 718px;
+  height: 516px;
+  background: #232427;
+  opacity: 1;
+  position: absolute;
+  top: 691px;
+  left: 0px;
+  overflow: hidden;
+}
+.text4 {
+  width: 521px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 774px;
+  left: 127px;
+  font-family: Golos;
+  font-weight: Text Medium;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.text5 {
+  width: 518px;
+  color: rgba(218,218,218,1);
+  position: absolute;
+  top: 899px;
+  left: 127px;
+  font-family: Golos;
+  font-weight: Text Regular;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.pic2 {
+  width: 498px;
+  height: 331px;
+  background: linear-gradient(0deg, rgba(36, 41, 40, 0.49), rgba(36, 41, 40, 0.49)), url("../images/picture2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 784px;
+  left: 870px;
+  overflow: hidden;
+}
+
+.bck1 {
+  position: absolute;
+width: 128px;
+height: 467px;
+left: 525px;
+top: 84px;
+z-index: 3;
+
+background: rgba(81, 202, 20, 0.4);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.button2 {
+  color: rgba(81,201,20,1);
+  position: absolute;
+  top: 1030px;
+  left: 130px;
+  padding-left: 70px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Golos;
+  font-weight: Text Regular;
+  font-size: 17px;
+  border: 1px solid #51CA14;
+}
+.elem2 {
+  width: 653px;
+  height: 467px;
+  background: url("../images/elem2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 84px;
+  left: 0px;
+  overflow: hidden;
+}
+.pic1 {
+  width: 653px;
+  height: 467px;
+  background: url("../images/pic1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.text1 {
+  width: 437px;
+  color: rgba(13,28,5,1);
+  position: absolute;
+  top: 107px;
+  left: 750px;
+  font-family: Golos;
+  font-weight: Text DemiBold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.text2 {
+  width: 529px;
+  color: rgba(28,32,25,1);
+  position: absolute;
+  top: 247px;
+  left: 750px;
+  font-family: Golos;
+  font-weight: Text Regular;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.text3 {
+  width: 551px;
+  color: rgba(28,32,25,1);
+  position: absolute;
+  top: 360px;
+  left: 750px;
+  font-family: Golos;
+  font-weight: Text Regular;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+.button1 {
+  width: 238px;
+  height: 63px;
+  background: rgba(81,201,20,1);
+  opacity: 1;
+  position: absolute;
+  top: 462px;
+  left: 750px;
+  overflow: hidden;
+}
+.button1_text {
+  width: 143px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 482px;
+  left: 805px;
+  font-family: Golos;
+  font-weight: Text Regular;
+  font-size: 17px;
+  opacity: 1;
+  text-align: left;
+}
+
+.text6 {
+  width: 473px;
+  color: rgba(13,28,5,1);
+  position: absolute;
+  top: 1347px;
+  left: 80px;
+  font-family: Golos;
+  font-weight: Text DemiBold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.text7 {
+  width: 111px;
+  color: rgba(81,201,20,1);
+  position: absolute;
+  top: 1781px;
+  left: 750px;
+  font-family: Golos;
+  font-weight: Text Medium;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.pic3 {
+  width: 591px;
+  height: 388px;
+  background: linear-gradient(0deg, rgba(81, 202, 20, 0.4), rgba(81, 202, 20, 0.4)), url("../images/pic3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1501px;
+  left: 80px;
+  overflow: hidden;
+}
+.text8 {
+  width: 288px;
+  color: rgba(13,28,5,1);
+  position: absolute;
+  top: 1589px;
+  left: 750px;
+  font-family: Golos;
+  font-weight: Text Medium;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.text9 {
+  width: 302px;
+  color: rgba(28,32,25,1);
+  position: absolute;
+  top: 1677px;
+  left: 750px;
+  font-family: Golos;
+  font-weight: Text Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.elem1 {
+  width: 12px;
+  height: 12px;
+  background: url("../images/v2_44.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1785px;
+  left: 463px;
+  overflow: hidden;
+}
+
+.name {
+  color: #fff;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  background: url("../images/green_arrow.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1785px;
+  left: 850px;
+  overflow-x: hidden;
+}
+
+.name {
+  color: #fff;
+}
